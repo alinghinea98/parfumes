@@ -1,1 +1,7 @@
-<h1>App works</h1>
+<main class="wrapper">
+  @for (parfume of parfumesList; track parfume.name) {
+  <app-card [item]="parfume"></app-card>
+  } @empty {
+  <h2>No items yet.</h2>
+  }
+</main>
