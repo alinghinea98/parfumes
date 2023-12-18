@@ -14,16 +14,28 @@ export class AppComponent {
   title = 'Parfumes';
   parfumesList: ParfumeModel[] = [
     {
-      name: 'Dior',
-      path: 'https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw31196594/Y0785220/Y0785220_F078524009_E01_GHC.jpg?sw=800',
+      name: 'Dior Elixir',
+      path: '../../../assets/parfumes/dior-elixir.jpeg',
       urlPage:
-        'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dior.com%2Fen_us%2Fbeauty%2Fproducts%2Fsauvage-eau-de-parfum-Y0785220.html&psig=AOvVaw1xoRth_0leqvBVG-rHPsT0&ust=1702405266333000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCICA4vT_h4MDFQAAAAAdAAAAABAE',
+        'https://www.notino.ro/dior/sauvage-elixir-extract-de-parfum-pentru-barbati/p-16085999/?gad_source=1&gclid=EAIaIQobChMI_aWE9KyZgwMV7KaDBx3DsAQuEAQYAiABEgLc2_D_BwE',
     },
     {
-      name: 'Carolina Herera',
-      path: 'https://www.koku.ro/buxus/images/products/714686_carolina-herrera-good-girl-edp_14383475.jpg',
+      name: 'Invictus Onyx',
+      path: '../../../assets/parfumes/invictus-onyx.jpeg',
       urlPage:
-        'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.koku.ro%2Fapa-de-parfum-carolina-herrera-good-girl&psig=AOvVaw3XEECbep9BRMxYhyTbLHPX&ust=1702405323730000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOjcxZCAiIMDFQAAAAAdAAAAABAE',
+        'https://www.simplestore.ro/index.php?route=product/product&product_id=20295&gad_source=1&gclid=EAIaIQobChMIwILchq2ZgwMVb5aDBx2AXwAzEAQYAyABEgIEPfD_BwE',
+    },
+    {
+      name: 'Dolce Gabbana - The One',
+      path: '../../../assets/parfumes/the-one-dolce-gabanna.jpeg',
+      urlPage:
+        'https://www.sephora.ro/p/the-one-for-men---eau-de-parfum-332228.html?gad_source=1&gclid=EAIaIQobChMIqeqSqq2ZgwMVFMTVCh38swGJEAQYASABEgKlWPD_BwE&gclsrc=aw.ds',
+    },
+    {
+      name: 'Phantom Legion',
+      path: '../../../assets/parfumes/phantom-legion.jpeg',
+      urlPage:
+        'https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjmtoXGrZmDAxXEGQYAHewGAQ0YABAOGgJ3cw&ase=2&gclid=EAIaIQobChMI5raFxq2ZgwMVxBkGAB3sBgENEAQYASABEgKmPfD_BwE&ohost=www.google.com&cid=CAASJeRoHYcyABNJ-B2B5ZJLDZ36cc_QqLPajYrD7Haff9LRR9sZTPg&sig=AOD64_1JBHehC7j9r9f0qK0Kos9LtSNdyA&ctype=5&q=&nis=4&ved=2ahUKEwiWpP3FrZmDAxXC3AIHHePmBaAQ9aACKAB6BAgEEBA&adurl=',
     },
   ];
 }
